@@ -2,13 +2,12 @@ package ca.demo.salestool;
 
 public class SalesData {
 	
-	public void display(){
-		display1();
-		System.out.println("This is the output from Sales Data");
-	}
+	int data[] = {1,2,3,4};
 	
-	public void display1(){
-		System.out.println("This is another data from SalesData class");
+	public void display(){
+		for(int i=0;i<data.length;i++){
+			System.out.println(data[i]);
+		}
 	}
 
 }
